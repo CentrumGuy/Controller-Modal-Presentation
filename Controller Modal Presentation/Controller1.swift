@@ -27,7 +27,10 @@ class Controller1: UIViewController {
     // Function for setting the root view controller
     func setControllerAsRoot(viewController: UIViewController) {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.window?.rootViewController = viewController
+        let window = appDelegate.window!
+        
+        window.rootViewController = viewController
+        UIView.transition(with: window, duration: 0.2, options: .transitionCrossDissolve, animations: {})
     }
     
     // Function for presenting the next controller normally without setting it as the root controller

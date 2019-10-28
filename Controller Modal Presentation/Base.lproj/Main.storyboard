@@ -71,7 +71,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Cm-if-2Yd">
-                                <rect key="frame" x="16" y="597" width="343" height="50"/>
+                                <rect key="frame" x="16" y="601" width="343" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="84X-ok-NfR"/>
@@ -95,7 +95,7 @@
                             <constraint firstItem="fvp-j3-FCh" firstAttribute="trailing" secondItem="8Cm-if-2Yd" secondAttribute="trailing" constant="16" id="9Lo-wa-S4N"/>
                             <constraint firstItem="ojO-yu-fAR" firstAttribute="centerY" secondItem="fvp-j3-FCh" secondAttribute="centerY" id="Hrw-KW-KHy"/>
                             <constraint firstItem="ojO-yu-fAR" firstAttribute="centerX" secondItem="fvp-j3-FCh" secondAttribute="centerX" id="UrM-jO-YK2"/>
-                            <constraint firstItem="fvp-j3-FCh" firstAttribute="bottom" secondItem="8Cm-if-2Yd" secondAttribute="bottom" constant="20" id="oBO-9t-PWr"/>
+                            <constraint firstItem="fvp-j3-FCh" firstAttribute="bottom" secondItem="8Cm-if-2Yd" secondAttribute="bottom" constant="16" id="oBO-9t-PWr"/>
                             <constraint firstItem="8Cm-if-2Yd" firstAttribute="leading" secondItem="fvp-j3-FCh" secondAttribute="leading" constant="16" id="oTK-fY-p6f"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fvp-j3-FCh"/>
